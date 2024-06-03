@@ -21,8 +21,8 @@ const Contact = () => {
         <div className="contact__data">
           <h3 className="contact__title">Don't be shy !</h3>
           <p className="contact__description">
-            Feel free to get in touch with me,I am always open to discussing new
-            projects,creative ideas or opportunites to be part of your visions.
+            Feel free to get in touch with me. I am always open to discussing new
+            projects, creative ideas or opportunities to be part of your visions.
           </p>
           <div className="contact__info">
             <div className="info__item">
@@ -37,7 +37,7 @@ const Contact = () => {
               <FaPhoneSquareAlt className="info__icon" />
               <div>
                 <span className="info__title">Call Me</span>
-                <h4 className="info__desc">+214 812 556 5426</h4>
+                <h4 className="info__desc">+234 812 556 5426</h4>
               </div>
             </div>
           </div>

@@ -14,7 +14,7 @@ const Home = () => {
             <span>I'm Ayenor Christopher.</span> Full stack Web Developer
           </h1>
           <p className="home__description">
-           I'm a Nigerian based Web Developer focused on crafting clean & user-friendly experiences,I am passionate about building excellent software that improves the lives of those around me. 
+           I'm a Nigerian based Web Developer focused on crafting clean & user-friendly experiences. I am passionate about building excellent software that improves the lives of those around me. 
           </p>
           <Link to='/about' className="button buttonl">
             More About Me <span className="button__icon">  <FaArrowRight/>     
