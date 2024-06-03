@@ -44,11 +44,11 @@
     border-radius: 10px;
     background-color: var(--first-color);
 }
-
-.home__description {
+.home__description{
     line-height: 2.125;
     margin-block: 16px 32px;
     color: var(--title-color);
+    font-weight:bolder;
     z-index: 2;
 }
 
