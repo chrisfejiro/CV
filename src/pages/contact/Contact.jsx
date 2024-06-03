@@ -7,7 +7,8 @@ import {
   FaDribbble,
 } from "react-icons/fa";
 
-import { FiSend } from "react-icons/fi";
+// import { FiSend } from "react-icons/fi";
+import thumbsUpImage from '../../assets/thumbsUp.jpg';
 import "./contact.css";
 
 const Contact = () => {
@@ -57,7 +58,8 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <form className="contact__form">
+        <img src={thumbsUpImage}alt="Emoji image" />
+        {/* <form className="contact__form">
           <div className="form__input-group">
             <div className="form__input-div">
               <input
@@ -93,7 +95,7 @@ const Contact = () => {
               <FiSend />
             </span>
           </button>
-        </form>
+        </form> */}
       </div>
     </section>
   );
