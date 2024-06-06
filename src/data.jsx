@@ -99,7 +99,7 @@ export const personalInfo = [
     id: 7,
     title: "Address : ",
     description:
-      "Royal Estate Phase 2, Royal Estate Road, Games Village, off Eric Moore Road, off Bode Thomas, Surulere, Lagos",
+      "Surulere, Lagos",
   },
 
   {
