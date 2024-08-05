@@ -84,10 +84,6 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
-chrisfejiro
-CV
-Christopher Ayenor
-fejiroayenor@gmail.com
 
 This is my portfolio page. It includes a style switcher panel that allows you to change the background color of the code. It also features a light and dark theme toggle function to improve visibility as needed.
 
