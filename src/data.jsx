@@ -99,13 +99,13 @@ export const personalInfo = [
     id: 7,
     title: "Address : ",
     description:
-      "Surulere, Lagos",
+      "NewBrunswick,Canada",
   },
 
   {
     id: 8,
     title: "Phone : ",
-    description: "+2348125565426",
+    description: "(+1) 5068984756",
   },
 
   {
@@ -117,7 +117,7 @@ export const personalInfo = [
   {
     id: 10,
     title: "linkedin: ",
-    description: "Christopher Ayenor",
+    description: "www.linkedin.com/in/christopher-fejiro-ayenor",
   },
 
   {
