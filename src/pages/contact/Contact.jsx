@@ -1,10 +1,11 @@
 import {
   FaEnvelopeOpen,
   FaPhoneSquareAlt,
-  FaFacebookF,
-  FaTwitter,
-  FaYoutube,
-  FaDribbble,
+  // FaFacebookF,
+  // FaTwitter,
+  // FaYoutube,
+  FaLinkedin ,
+    FaGithub
 } from "react-icons/fa";
 
 // import { FiSend } from "react-icons/fi";
@@ -38,23 +39,23 @@ const Contact = () => {
               <FaPhoneSquareAlt className="info__icon" />
               <div>
                 <span className="info__title">Call Me</span>
-                <h4 className="info__desc">+234 812 556 5426</h4>
+                <h4 className="info__desc">(+1) 5068984756</h4>
               </div>
             </div>
           </div>
 
           <div className="contact__socials">
-            <a href="https://facebook.com" className="contact__social-link">
+            {/* <a href="https://facebook.com" className="contact__social-link">
               <FaFacebookF />
             </a>
             <a href="https://twitter.com" className="contact__social-link">
               <FaTwitter />
+            </a> */}
+            <a href="www.linkedin.com/in/christopher-fejiro-ayenor"target="_blank" rel="noopener noreferrer" className="contact__social-link">
+            <FaLinkedin />
             </a>
-            <a href="https://youtube.com" className="contact__social-link">
-              <FaYoutube />
-            </a>
-            <a href="https://dribbble.com" className="contact__social-link">
-              <FaDribbble />
+            <a href="https://github.com/chrisfejiro"target="_blank" rel="noopener noreferrer" className="contact__social-link">
+              < FaGithub/>
             </a>
           </div>
         </div>

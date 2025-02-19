@@ -11,8 +11,12 @@ const Home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <span>I'm Ayenor Christopher.</span> Electrical and Computer Engineer
+            <span>I'm Ayenor Christopher.</span>
+            <h1 className="home__titlesub">
+            Electrical and Computer Engineer
+          </h1> 
           </h1>
+        
           <p className="home__description">
           I’m an Electrical and Computer Engineer with a strong foundation in Software Development and Embedded Systems. I design and optimize electrical circuits, communication networks, and embedded systems, while also developing software applications. My expertise spans hardware components like circuit boards and sensors, as well as software development for control systems and network solutions. This combination of skills allows me to bridge the gap between hardware and software, delivering innovative solutions for modern communication systems, smart devices, and software applications.
           </p>

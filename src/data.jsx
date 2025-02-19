@@ -80,7 +80,7 @@ export const personalInfo = [
   {
     id: 4,
     title: "Age : ",
-    description: "23 Years",
+    description: "24 Years",
   },
 
   {
@@ -99,7 +99,7 @@ export const personalInfo = [
     id: 7,
     title: "Address : ",
     description:
-      "NewBrunswick,Canada",
+      "New Brunswick, Canada",
   },
 
   {
@@ -117,7 +117,9 @@ export const personalInfo = [
   {
     id: 10,
     title: "linkedin: ",
-    description: "www.linkedin.com/in/christopher-fejiro-ayenor",
+    description: `<a href="https://www.linkedin.com/in/christopher-fejiro-ayenor" target="_blank" rel="noopener noreferrer">
+  www.linkedin.com/in/christopher-fejiro-ayenor
+</a>`,
   },
 
   {
@@ -130,7 +132,7 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: '2',
+    no: '3',
     title: 'Years of <br /> Experience',
   },
 
@@ -158,9 +160,14 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '01/2023 - PRESENT',
-    title: 'Web Developer <span> Precise Financial System</span>',
-    desc: ' Collaborated with other software developers on the design, development, and testing of programs. Designed and coded new software or modified existing software to add new features.Designed and implemented various web-based applications for clients',
+    year: '12/2022 - 31/2024',
+    title: 'Software Engineer <span> Precise Financial System</span>',
+    desc:`* Designed and developed user interfaces with Next.js and React.js, reducing page load times by 30% and increasing user engagement by 20%. <br/>
+    * Built and optimized RESTful APIs using C# (DotNet) and SQL, improving data retrieval speeds by 40% and reducing server response time by 25%. <br/>
+    * Collaborated with Tech Leads and Senior Developers to implement cloud solutions on Azure, achieving 99.9% uptime and reducing infrastructure costs by 15%. <br/>
+    * Conducted unit testing and code reviews, reducing production bugs by 35% and improving code maintainability by 50%. <br/>
+    * Integrated OAuth 2.0 and JWT authentication for secure API communication, ensuring data integrity and compliance with security standards. <br/>
+    * Conducted security audits and implemented data encryption, safeguarding sensitive user information and preventing data breaches.`,
   },
 
   {
@@ -169,7 +176,10 @@ export const resume = [
     icon: <FaBriefcase />,
     year: '05/2021 - 10/2021',
     title: 'Network Engineer <span> Simidebis International Ltd </span>',
-    desc: 'Throughout this period, I helped install and configure network devices at different telecommunication towers and masts for various notable telecommunication companies.I also coordinated network operations, maintenance, repairs and upgrades',
+    desc: `* Designed and maintained network infrastructure, improving network uptime by 99.8% and reducing latency by 20%.<br/>
+    * Provided technical support and training, boosting end-user satisfaction by 25% and decreasing support tickets by 35%. <br/>
+    * Implemented network upgrades, enhancing bandwidth capacity by 40% and supporting 25% more devices.<br/>
+    * Managed network documentation, increasing configuration accuracy by 30% and reducing troubleshooting time by 40%.`,
   },
 
   {
@@ -178,7 +188,7 @@ export const resume = [
     icon: <FaBriefcase />,
     year: '04/2019 - 05/2019',
     title: 'AXA Mansard <span> IT Technician </span>',
-    desc: 'I worked in the IT department at AXA Mansard Insurance Company, where I installed and performed minor repairs to hardware, software, and peripheral equipment, following design and installation specifications.',
+    desc: `* I worked in the IT department at AXA Mansard Insurance Company, where I installed and performed minor repairs to hardware, software, and peripheral equipment, following design and installation specifications.`,
   },
 
 ];
@@ -204,7 +214,12 @@ export const skills = [
 
   {
     id: 4,
-    title: 'Net Framework',
+    title: 'C#',
+    percentage: '80',
+  },
+  {
+    id: 5,
+    title: 'Java',
     percentage: '80',
   },
 
