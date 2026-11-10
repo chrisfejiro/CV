@@ -17,6 +17,8 @@ import Work5 from './assets/Work5.png';
 import Work6 from './assets/Work6.png';
 import Work7 from './assets/Work7.png';
 import Work8 from './assets/Work8.png';
+import PCB from './assets/PCB.png';
+import PCB2 from './assets/PCB2.png';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -80,7 +82,7 @@ export const personalInfo = [
   {
     id: 4,
     title: "Age : ",
-    description: "24 Years",
+    description: "26 Years",
   },
 
   {
@@ -132,7 +134,7 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: '3',
+    no: '4',
     title: 'Years of <br /> Experience',
   },
 
@@ -160,6 +162,32 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
+    year: '01/2026 - Present',
+    title: 'Electrical Engineer (Intern) <span> Smart Skin Technologies </span>',
+    desc:`* Diagnosed and repaired 30+ PCB assemblies at component level, identifying hardware faults through systematic testing and inspection. <br/>
+    * Recommended hardware design improvements to simplify troubleshooting and enhance assembly efficiency. <br/>
+    •	Performed diagnostics and troubleshooting on industrial electronic systems using multimeters and other electronic test equipment.<br/>
+    •	Conducted root cause analysis and implemented corrective actions to address recurring hardware failures and improve product reliability.<br/>
+    •	Supported electronics quality assurance through systematic inspection, testing, and documentation of repair activities.<br/>`,
+  },
+  
+    {
+    id: 2,
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: '09/2026 - 12/2026',
+    title: 'Teaching Assistant -Digital Logic Design <span> University of New Brunswick</span>',
+    desc:`* Supported approximately 50 students across 8 laboratory sessions, providing hands-on guidance in digital circuit design, simulation, troubleshooting, and VHDL implementation <br/>
+    * Marked and graded laboratory reports and quizzes for approximately 76 students, assessing their understanding of digital system design concepts. <br/>
+    * Evaluated VHDL-based projects, assessing code functionality, design correctness, and implementation requirements. <br/>
+    * Assisted students in troubleshooting VHDL code and resolving digital circuit design and implementation challenges. <br/>
+    * Provided technical guidance on digital logic, hardware design principles, and VHDL programming during laboratory sessions. <br/>`,
+  },
+
+    {
+    id: 3,
+    category: 'experience',
+    icon: <FaBriefcase />,
     year: '12/2022 - 31/2024',
     title: 'Software Engineer <span> Precise Financial System</span>',
     desc:`* Designed and developed user interfaces with Next.js and React.js, reducing page load times by 30% and increasing user engagement by 20%. <br/>
@@ -171,7 +199,7 @@ export const resume = [
   },
 
   {
-    id: 2,
+    id: 4,
     category: 'experience',
     icon: <FaBriefcase />,
     year: '05/2021 - 10/2021',
@@ -183,7 +211,7 @@ export const resume = [
   },
 
   {
-    id: 3,
+    id: 5,
     category: 'experience',
     icon: <FaBriefcase />,
     year: '04/2019 - 05/2019',
@@ -222,10 +250,24 @@ export const skills = [
     title: 'Java',
     percentage: '80',
   },
-
+ {
+    id: 6,
+    title: 'Python',
+    percentage: '90',
+  }, 
+  {
+    id: 7,
+    title: 'Verilog',
+    percentage: '80',
+  },
+   {
+    id: 8,
+    title: 'VHDL',
+    percentage: '80',
+  },
  
   {
-    id: 8,
+    id: 9,
     title: 'React',
     percentage: '80',
   },
@@ -234,6 +276,60 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
+    img: PCB2,
+    title: 'STM32 PCB Design',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'STM32 PCB Design',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Christopher',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Altium',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: '',
+      },
+    ],
+  },
+   {
+    id: 2,
+    img: PCB,
+    title: 'Master Relay Module',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Master Relay Module',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Christopher',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Altium',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: '',
+      },
+    ],
+  },
+   {
+    id: 3,
     img: Work1,
     title: 'Diary Application',
     details: [
@@ -261,7 +357,7 @@ export const portfolio = [
   },
 
   {
-    id: 2,
+    id: 4,
     img: Work2,
     title: 'Movie Application',
     details: [
@@ -289,7 +385,7 @@ export const portfolio = [
   },
 
   {
-    id: 3,
+    id: 5,
     img: Work3,
     title: 'EShopping Website',
     details: [
@@ -317,7 +413,7 @@ export const portfolio = [
   },
 
   {
-    id: 4,
+    id: 6,
     img: Work4,
     title: 'Blogging Website',
     details: [
@@ -345,7 +441,7 @@ export const portfolio = [
   },
 
   {
-    id: 5,
+    id: 7,
     img: Work5,
     title: 'TodoList',
     details: [
@@ -369,7 +465,7 @@ export const portfolio = [
   },
 
   {
-    id: 6,
+    id: 8,
     img: Work6,
     title: 'Phone Book',
     details: [
@@ -396,7 +492,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 7,
+    id: 9,
     img: Work7,
     title: 'Calculator',
     details: [
@@ -423,7 +519,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 8,
+    id: 10,
     img: Work8,
     title: 'Video Sharing',
     details: [
